@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <script type="text/javascript" src="java.js"></script>
+  <title>CODE 1230</title>
+	    <meta charset='utf-8' />
+	    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+	<script src='./building.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; height:400px; }
+    </style>
+</head>
+
+  <!-- Header Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<header id="header">
+  <div class="main_nav">
+    <div class="container">
+      <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
+      <nav>
+        <ul>
+          <li><a class="smoothscroll" href="#header">Home</a></li>
+          <li><a class="smoothscroll" href="#about">About</a></li>
+          <li><a class="smoothscroll" href="#skills">Data</a></li>
+          <li><a class="smoothscroll" href="#portfolio">Alternate Data</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="title">
+    <div><span class="typcn typcn-heart-outline icon heading"></span></div>
+    <div class="smallsep heading"></div>
+    <h1 class="heading"> Find Me a Rich Man: <br> The Pier</h1>
+    <h2 class="heading">A design solution based on the problem definition framework of young women searching for 
+	  young rich bachelors in Sydney, based off the data analysis of the 2016 census.</h2>
+    <a class="smoothscroll" href="#about">
+    <div class="mouse">
+      <div class="wheel"></div>
+    </div>
+    </a> </div>
+  <a class="smoothscroll" href="#about">
+  <div class="scroll-down"></div>
+  </a> </header>
+  
+<!-- About Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  
+<section id="about">
+
+  <div class="container">
+    <div class="row">
+      <h1>About</h1>
+      <div class="block"></div>
+      <p> Through observing the 2016 data, it is possible to find the most eligible (and wealthiest) boyfriend - utilising QGIS maps to 
+	    exactly pin point where the largest number of men aged 25-34 live and exactly how much money they make weekly.
+</p>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        <h3><span class="typcn typcn-device-desktop icon"></span>Process</h3>
+        <p>Joining the data set to a map of NSW and setting the variable to what we wish to find - in this case, rich boys.</p>
+      </div>
+      <div class="six columns">
+        <h3><span class="typcn typcn-pen icon"></span>More Data</h3>
+        <p>Through analysing further data such as marrital status and highest level of education, we are able to find the most eligible bachelor.</p>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <h3><span class="typcn typcn-cog-outline icon"></span>Outcome</h3>
+          <p>With all of this important information, a layered map will be made - pin pointing the areas in Sydney where rich, smart 
+		and single men can be found.</p>
+        </div>
+        <div class="six columns">
+          <h3><span class="typcn typcn-lightbulb icon"></span>Final Goal</h3>
+          <p>What can be done with this information? The world is now your oyster - go and find your man.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+
+<section id="team">
+  <div class="container">
+    <div class="row">
+      <h1>High Weekly Income</h1>
+      <div class="block"></div>
+
+	    <br>
+	    <p>Through the observation of the 2016 data set showing the weekly income of males between the ages of 25 and 35 in Sydney, 
+	    Mesh blocks are colored accordingly to show income levels. The lighter blue areas have lower weekly income and the 
+		darker purple areas are the highest income areas.
+	    Areas in the Eastern Suburbs as well as in the City have higher weekly income rates, as well as in industrial areas 
+	    due to a higher population of men and higher paying jobs. Expensive areas in the North Shore and around beaches
+	    are mostly light purple or blue not because of a lower income but because they are largely populated by families and
+		    retireees. </p>
+		    <p>The Latte line runs down through the middle of Northern Sydney and through to the 
+	    Eastern suburbs which doesn't follow a specific pattern but does enclose the wealthier areas of Sydney and 
+	    the main universities and industrial workplaces which makes sense as they would be heavily populated with young men.</p>
+	    	    <p>Through the observation and comparison of data sets, it is evident that the welathiest, most educated 
+		    single men are situated in the Eastern suburbs (Bondi Area), Northern beaches and inner city. With this information,
+	    you are now able to find the most eligible bachelor. </p>
+ </div>
+	  <div class="row">
+    <img src="final.png" alt="map" style="width:50%" class="center">
+  </div>
+
+</div>
+	 
+	</div>
+</section>
+
+
+
+
+
+<!-- About Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  
+<section id="about">
+
+  <div class="container">
+    <div class="row">
+      <h1>Problem</h1>
+      <div class="block"></div>
+      <p> The issue that arises from this data is that the most eligible bachelors are localised within their respective areas, making it
+	      a challenge to potentially meet one as they aren't in one central location. Due to their wealth, this also means they live
+	      in extremely expensive areas which are simply unattainable for regular girls like myself. 
+	    <br> I have attached a link listing some real estate prices in Bondi Beach
+		  <a href="https://www.realestate.com.au/sold/in-bondi+beach,+nsw+2026/list-1" target="_blank">here</a></p>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        <h3><span class="typcn typcn-device-desktop icon"></span>What Needs to be Addressed?</h3>
+        <p>The main problems that must be identified include the location of the men: the wealthiest areas are too spread out to 
+	      be able to pinpoint where you could find your bachelor, and the fact that they may not go for the regular girl:
+	      most girls can't afford to live in those areas so how will they get noticed by the wealthy men?</p>
+      </div>
+      <div class="six columns">
+        <h3><span class="typcn typcn-pen icon"></span>Who is Involved?</h3>
+        <p>The main focus is on the rich men and young women of any kind who are looking for a partner.</p>
+      </div>
+    <div class="row">
+    <img src="4.png" alt="marry" style="width:70%" class="center">
+  </div>
+
+     
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  
+<section id="about">
+
+  <div class="container">
+    <div class="row">
+      <h1>Solution</h1>
+      <div class="block"></div>
+      <p>Taking all of the previous imformation into account, there are a number of possible solutions; However, the final solution 
+	      is big, exciting and addresses all of the issues listed above. 
+	    <br>The Pier</p>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        <h3><span class="typcn typcn-device-desktop icon"></span>What is The Pier?</h3>
+        <p>The Pier is a new and exciting estate-like establishment that spans the harbour, linking Point Piper in the city to Ashfield
+	      Park in the North Shore. It acts as accomodation and a safe haven for young women and boasts beautiful views of the 
+	      harbour, a native park and the City of Sydney. Whilst it accomodates young women, it's facilities are open to the 
+	      public - with cafes and state of the art public meeting places. It hosts beach parties and celebratory events
+	      aimed at both men and women in their 20's.</p>
+      </div>
+      <div class="six columns">
+        <h3><span class="typcn typcn-pen icon"></span>How Does it Address These Issues?</h3>
+        <p>The Pier links two of the wealthiest areas together - The City and The North Shore, making it easily accessible and a 
+	      hot spot for wealthy men living in the area. The parties and events as well as the facilities in the area are
+	      an excellent way to attract young people and encourage them to meet and get to know one-another. It also allows
+	      young women to live in an exciting new area without the excessive price tag as it is exclusively for women only. This
+	      also adds an extra element of safety to the solution. Whilst the plan is intended in a light-hearted and fun way to 
+	      get to know new people, there are always elements of risk - this is intended to minimise all risk factors.</p>
+      </div>
+    <div class="row">
+    <img src="5.png" alt="marry" style="width:70%" class="center">
+  </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+<section id="team">
+  <div class="container">
+    <div class="row">
+      <h1>The Design</h1>
+      <div class="block"></div>
+
+	    <br>
+	    <p>This is an interactive draft design of the Pier and all of the buildings it is made up of. It spans across
+	    the harbour and is designed in a similar style to Tetris - with each building fitting into a uniform structure whilst
+	    maintaining individuality, representing the unique nature of human kind whilst giving off a fun and playful atmosphere.</p>
+ </div>
+	  </div>
+
+</div>
+	 
+	</div>
+ 
+</section>	  
+		  
+		  
+		  <!-- Map Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+ 
+
+  <div class="container">
+
+<div id='map'></div>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZW10Y29sbGlucyIsImEiOiJjam4yZ2NneXEyMW4yM2t0bmkzd2RkZDZhIn0.s-V32MAvfTgOOY4MteYw5g';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v9',
+    center: [151.2510, -33.8704],
+    zoom: 13,
+    pitch: 45,
+	bearing: -17.6,
+});
+
+map.on('load', function() {
+
+    map.addLayer({
+        "id": "data",
+        "type": "fill-extrusion",
+        "source": {
+            'type': 'geojson',
+            'data': building
+        },
+        'layout': {
+            'visibility': 'visible'
+            },
+        'paint': {
+                'fill-extrusion-color' : {
+                    'property': 'colour',
+                    'type': 'identity'
+                },
+                'fill-extrusion-height' : {
+                    'type': 'identity',
+                    'property': 'height'
+                },
+                'fill-extrusion-base' : {
+                    'type': 'identity',
+                    'property': 'base_height'
+                },
+                 'fill-extrusion-opacity': 1
+            }
+
+    });
+});
+
+
+
+</script>  
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	 
+
+
+
+<!-- Team Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– --> 
+<section id="team">
+  <div class="container">
+    <div class="row">
+      <h1>Cafe Design</h1>
+      <div class="block"></div>
+
+	    <br>
+		    <p>This design is one of the many public meeting spaces, it is open and inviting with clean lines and minimalistic
+		  colors - making it modern yet fun with the contoured glass roof. Because it is located right on the water,
+		  the contours are used to imitate the sea and the space is not fully enclosed all year round to create an open and 
+		  atmospheric feel.</p>
+ </div>
+	  <div class="row">
+    <img src="3.jpg" alt="map" style="width:100%">
+  </div>
+
+</div>
+	 
+	</div>
+</section>
+
+	  
+
+
+
+
+
+<!-- Footer Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+
+<footer>
+  <div class="container">
+    <div class="nine columns">
+      <p>Emily Collins</p>
+    </div>
+    <div class="three columns"> <span class="typcn typcn-social-facebook-circular socialIcons"></span> <span class="typcn typcn-social-instagram-circular socialIcons"></span> <span class="typcn typcn-social-google-plus-circular socialIcons"></span> <span class="typcn typcn-social-linkedin-circular socialIcons"></span> </div>
+  </div>
+</footer>
